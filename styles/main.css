@@ -1,0 +1,42 @@
+body {
+    background-color: #f1f5f8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all ease-in-out 300ms;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    font-size: 250%;
+    text-shadow: 3px 3px 3px rgb(105, 105, 105);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+    border: 8px solid black;
+    border-radius: 20px;
+    padding: 2em 3em;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+    display: block;
+}
+
+#btn {
+    background-color: darkslategray;
+    color: whitesmoke;
+    width: 300px;
+    height: 40px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30vh;
+}
